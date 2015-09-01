@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>82AD90CA-61F4-401B-BD5E-283B2F62978C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DynamicsPlayground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3DB8DBBBF239A822731B3FD4FE73B5E46684775B</key>
+		<string>https://github.com/liukaiyi54/DynamicsPlayground.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DynamicsPlayground.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3DB8DBBBF239A822731B3FD4FE73B5E46684775B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liukaiyi54/DynamicsPlayground.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3DB8DBBBF239A822731B3FD4FE73B5E46684775B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3DB8DBBBF239A822731B3FD4FE73B5E46684775B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DynamicsPlayground</string>
+		</dict>
+	</array>
+</dict>
+</plist>
