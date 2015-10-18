@@ -23,6 +23,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self doAnimator];
+}
+
+- (void)doAnimator {
     UIView *square = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     square.backgroundColor = [UIColor grayColor];
     [self.view addSubview:square];
@@ -47,9 +51,9 @@
     
     CGPoint secondBarrierRightEdge = CGPointMake(secondBarrier.frame.origin.x + secondBarrier.frame.size.width, secondBarrier.frame.origin.y);
     [_collision addBoundaryWithIdentifier:@"secondBarrier" fromPoint:barrier.frame.origin toPoint:secondBarrierRightEdge];
-//    _collision.action = ^{
-//        //NSLog(@"%@, %@", NSStringFromCGAffineTransform(square.transform), NSStringFromCGPoint(square.center));
-//    };
+    //    _collision.action = ^{
+    //        //NSLog(@"%@, %@", NSStringFromCGAffineTransform(square.transform), NSStringFromCGPoint(square.center));
+    //    };
     
     [_animator addBehavior:_gravity];
     [_animator addBehavior:_collision];
@@ -58,6 +62,7 @@
     itemBehavior.elasticity = 0.6;
     [_animator addBehavior:itemBehavior];
 }
+
 - (void)collisionBehavior:(UICollisionBehavior *)behavior beganContactForItem:(id<UIDynamicItem>)item withBoundaryIdentifier:(id<NSCopying>)identifier atPoint:(CGPoint)p {
     NSLog(@"Boundary contact occurred - %@", identifier);
     
